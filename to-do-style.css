@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff8e1;
+    color: #333;
+}
+
+
+.header {
+    background-color: #ffe082;
+    padding: 30px;
+    color: #5d3e2e;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+
+input[type="text"],
+input[type="date"] {
+    width: 40%;
+    padding: 10px;
+    margin: 10px 5px;
+    border: 1px solid #ffcc00;
+    border-radius: 4px;
+    background-color: #fff;/
+    color: #333;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus {
+    border-color: #e6b800;
+    outline: none;
+}
+
+
+.addBtn {
+    padding: 10px;
+    background: #ffcc00;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.addBtn:hover {
+    background-color: #e6b800;
+}
+
+/* task list's style */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+/* list items' style */
+ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ffcc00;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    transition: background 0.3s;
+}
+
+ul li:hover {
+    background: #fff3e0;
+}
+
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+
+.close {
+    padding: 8px 12px;
+    background: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.close:hover {
+    background-color: #d32f2f;
+}
+
+
+.edit {
+    padding: 8px 12px;
+    background: #ffcc00;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.edit:hover {
+    background-color: #e6b800;
+}

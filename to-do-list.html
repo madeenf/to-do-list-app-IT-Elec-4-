@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO List App</title>
+  <link rel="stylesheet" href="to-do-style.css">
+</head>
+<body>
+    <div id="myDIV" class="header">
+        <h2>My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Task...">
+        <input type="date" id="myDate" placeholder="Select Date..."> <!-- New date input -->
+        <span onclick="addTask()" class="addBtn">Add</span>
+    </div>
+    
+    <ul id="myUL">
+        <!-- Tasks will be dynamically inserted here -->
+    </ul>
+    <script src="to-do-js.js"></script>
+</body>
+</html>
